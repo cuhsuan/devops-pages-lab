@@ -24,13 +24,18 @@ try {
     const page = await browser.newPage({ viewport: { width, height }, colorScheme: 'light' });
     const errors = [];
     page.on('response', response => { if (response.status() >= 400) errors.push(response.url()); });
-    const response = await page.goto('http://127.0.0.1:4173' + base + '/', { waitUntil: 'networkidle' });
+    const url = process.env.LIVE_URL || ('http://127.0.0.1:4173' + base + '/');
+    const response = await page.goto(url, { waitUntil: 'networkidle' });
     if (response.status() !== 200) throw new Error('Homepage failed to load');
     await page.locator('#recent-activity').waitFor();
+    if (process.env.REQUIRE_ACTIVITY === 'true') {
+      const seed = page.getByText('Activity collection has not run yet.', { exact: false });
+      if (await seed.count()) throw new Error('Live page still has seed content');
+    }
     if (errors.length) throw new Error('Failed resources: ' + errors.join(', '));
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
     if (overflow) throw new Error(name + ' viewport has horizontal overflow');
-    await page.screenshot({ path: 'evidence/' + name + '.png', fullPage: true });
+    await page.screenshot({ path: 'evidence/' + (process.env.LIVE_URL ? 'live-' : '') + name + '.png', fullPage: true });
     await page.close();
   }
   console.log('Desktop/mobile render and overflow checks: PASS');

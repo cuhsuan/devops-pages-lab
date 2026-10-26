@@ -19,7 +19,7 @@ Activity collection has not run yet. Open Actions and run **Activity → Pages**
 1. **Collect** — a manual run or daily schedule retrieves the owner's activity.
 2. **Transform** — the action replaces only the marked README section and commits its update.
 3. **Validate** — Python checks the markers, nonempty generated content, homepage include, local links and required files.
-4. **Build** — Jekyll expands `index.md` with `{% include_relative README.md %}` and renders Markdown as HTML.
+4. **Build** — Jekyll expands the relative README include in `index.md` and renders Markdown as HTML.
 5. **Deploy** — GitHub Actions publishes the checked artifact to GitHub Pages.
 
 ## Engineering choices
