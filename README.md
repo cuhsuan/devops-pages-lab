@@ -11,7 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-Activity collection has not run yet. Open Actions and run **Activity → Pages** after configuring TOKEN.
+1. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/6929f333821a2879b76576143b01f9c53ac1d68f)
+2. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/993fda2f6c4d38d04218139d75158f004a5dc05f)
+3. 🎉 Created a new branch main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/tree/main)
+4. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/5fbfafead0888c10c89289c77b39ef8db9564e93)
+5. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/0ee3b314f41e90b475f6c93b1eb07f571e031a52)
+6. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/3a0584f5a45efc4a8eba97f8e92ec79dc1e88e88)
+7. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/fbc0c81879d9226595c105ace28b015c6aa229d7)
+8. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/d74e19e0946bfbb129ac4620bdf17b06f12ca45e)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
