@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <a class="brand" href="{{ '/' | relative_url }}">CO<span> / </span>DEVOPS LAB</a>
+    <nav aria-label="Primary"><a href="#recent-activity">Activity</a><a href="https://github.com/cuhsuan/devops-pages-lab/actions">Actions ↗</a><a href="https://github.com/cuhsuan/devops-pages-lab">Source ↗</a></nav>
+  </header>
+  <section class="hero" aria-labelledby="hero-title">
+    <p class="eyebrow">LEARN · AUTOMATE · DELIVER</p>
+    <h1 id="hero-title">Small changes.<br><span>Visible progress.</span></h1>
+    <p class="intro">An activity observatory built with Markdown, GitHub Actions and GitHub Pages. Every update has a traceable path from source to site.</p>
+    <div class="pills"><span>01 / COLLECT</span><span>02 / VALIDATE</span><span>03 / PUBLISH</span></div>
+  </section>
+  <main id="main" tabindex="-1">{{ content }}</main>
+  <footer><span>CUHSUAN / 115-1 DEVOPS</span><span>Built {{ site.time | date: '%Y-%m-%d %H:%M UTC' }} · <a href="https://github.com/cuhsuan/devops-pages-lab/actions/workflows/activity-log.yml">Deployment history</a></span></footer>
+</body>
+</html>

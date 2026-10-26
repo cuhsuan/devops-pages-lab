@@ -1,0 +1,9 @@
+{
+  "name": "devops-pages-lab-evidence",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Browser verification and screenshots for the generated Pages site",
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

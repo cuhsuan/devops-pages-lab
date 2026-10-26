@@ -1,0 +1,20 @@
+title: DevOps Activity Observatory
+description: GitHub activity, transformed and delivered continuously.
+url: https://cuhsuan.github.io
+baseurl: /devops-pages-lab
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - scripts
+  - docs
+  - evidence
+  - tests
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor
+  - README.md
+  - requirements.txt

@@ -1,0 +1,14 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+evidence/*.png
+evidence/*.json
+!evidence/manifest.json
