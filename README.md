@@ -20,6 +20,8 @@ This section is maintained by TheDanniCraft/activity-log. It displays up to eigh
 7. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/fbc0c81879d9226595c105ace28b015c6aa229d7)
 8. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/d74e19e0946bfbb129ac4620bdf17b06f12ca45e)
 
+<!--END_SECTION:activity-->
+
 ## From activity to a published page
 
 1. **Collect** — a manual run or daily schedule retrieves the owner's activity.
@@ -44,7 +46,7 @@ Schedules can be delayed by GitHub and are not an exact-time service. Inactive p
 
 ## Reproduce and maintain
 
-See [setup and troubleshooting](https://github.com/cuhsuan/devops-pages-lab/blob/main/docs/setup.md), [architecture and scheduling](https://github.com/cuhsuan/devops-pages-lab/blob/main/docs/architecture.md), and the [evidence checklist](https://github.com/cuhsuan/devops-pages-lab/blob/main/evidence/README.md).
+See [setup and troubleshooting](https://github.com/cuhsuan/devops-pages-lab/blob/main/docs/setup.md), [architecture and scheduling](https://github.com/cuhsuan/devops-pages-lab/blob/main/docs/architecture.md), [release safety](https://github.com/cuhsuan/devops-pages-lab/blob/main/docs/release-safety.md), and the [evidence checklist](https://github.com/cuhsuan/devops-pages-lab/blob/main/evidence/README.md).
 
 Only public activity is intended for this coursework site. Use a dedicated expiring PAT stored as the repository secret `TOKEN`; do not put credentials in files or screenshots. The workflow requests only the job permissions it needs. The repository remains public so the grader can inspect the source and workflow history.
 
