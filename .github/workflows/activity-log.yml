@@ -20,6 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      built-sha: ${{ steps.version.outputs.sha }}
     permissions:
       contents: read
       pages: read
@@ -59,6 +61,12 @@ jobs:
       - name: Require generated activity
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/validate.py --require-activity
+      - name: Record the exact source revision
+        id: version
+        run: |
+          sha=$(git rev-parse HEAD)
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          echo "build_commit: $sha" >> _config.yml
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
@@ -68,7 +76,9 @@ jobs:
           source: ./
           destination: ./_site
       - name: Validate generated site
-        run: python scripts/validate.py --site _site
+        run: |
+          printf '%s\n' '${{ steps.version.outputs.sha }}' > _site/version.txt
+          python scripts/validate.py --site _site
       - name: Set up browser runtime
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
@@ -79,12 +89,14 @@ jobs:
           npm ci
           npx playwright install --with-deps chromium
       - name: Capture desktop and mobile evidence
+        env:
+          EXPECTED_SHA: ${{ steps.version.outputs.sha }}
         run: node scripts/capture.mjs
       - name: Save visual evidence
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: site-evidence
-          path: evidence/*.png
+          path: evidence/*
           retention-days: 30
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
@@ -118,7 +130,7 @@ jobs:
 
   verify-live:
     if: github.event_name != 'pull_request'
-    needs: deploy
+    needs: [build, deploy]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -127,7 +139,7 @@ jobs:
       - name: Checkout verification tools
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          ref: main
+          ref: ${{ needs.build.outputs.built-sha }}
           persist-credentials: false
       - name: Set up browser runtime
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
@@ -141,6 +153,7 @@ jobs:
       - name: Verify the public URL and capture screenshots
         env:
           LIVE_URL: https://cuhsuan.github.io/devops-pages-lab/
+          EXPECTED_SHA: ${{ needs.build.outputs.built-sha }}
           REQUIRE_ACTIVITY: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         run: |
           for attempt in 1 2 3 4 5; do
@@ -152,5 +165,5 @@ jobs:
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: live-site-evidence
-          path: evidence/live-*.png
+          path: evidence/live-*
           retention-days: 30
