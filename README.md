@@ -19,7 +19,6 @@ This section is maintained by TheDanniCraft/activity-log. It displays up to eigh
 6. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/3a0584f5a45efc4a8eba97f8e92ec79dc1e88e88)
 7. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/fbc0c81879d9226595c105ace28b015c6aa229d7)
 8. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/d74e19e0946bfbb129ac4620bdf17b06f12ca45e)
-<!--END_SECTION:activity-->
 
 ## From activity to a published page
 
