@@ -12,3 +12,5 @@ __pycache__/
 evidence/*.png
 evidence/*.json
 !evidence/manifest.json
+/version.txt
+/evidence/release-safety/

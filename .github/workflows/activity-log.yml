@@ -67,6 +67,7 @@ jobs:
           sha=$(git rev-parse HEAD)
           echo "sha=$sha" >> "$GITHUB_OUTPUT"
           echo "build_commit: $sha" >> _config.yml
+          printf '%s\n' "$sha" > version.txt
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
@@ -77,7 +78,6 @@ jobs:
           destination: ./_site
       - name: Validate generated site
         run: |
-          printf '%s\n' '${{ steps.version.outputs.sha }}' > _site/version.txt
           python scripts/validate.py --site _site
       - name: Set up browser runtime
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
