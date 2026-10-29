@@ -11,14 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/35c13adb16a41a7c7f679c9987ed38cb870a1811)
-2. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/2ff592578631bdce2a07bff093e1f15385c1f359)
-3. 🎉 Created a new branch main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/tree/main)
-4. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/7866886665c25574b2baedb653b81bcd93cf94e2)
-5. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/6929f333821a2879b76576143b01f9c53ac1d68f)
-6. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/993fda2f6c4d38d04218139d75158f004a5dc05f)
-7. 🎉 Created a new branch main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/tree/main)
-8. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/5fbfafead0888c10c89289c77b39ef8db9564e93)
+1. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/32477fb6e137bf87413d3a6ff0fbba7902b49876)
+2. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/87c8c63350565d363ccf56f4ed61097b377dcbbb)
+3. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/35c13adb16a41a7c7f679c9987ed38cb870a1811)
+4. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/2ff592578631bdce2a07bff093e1f15385c1f359)
+5. 🎉 Created a new branch main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/tree/main)
+6. 📝 Committed to main in [cuhsuan/devops-pages-lab](https://github.com/cuhsuan/devops-pages-lab/commit/7866886665c25574b2baedb653b81bcd93cf94e2)
+7. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/6929f333821a2879b76576143b01f9c53ac1d68f)
+8. 📝 Committed to main in [cuhsuan/assignment5-automated-testing](https://github.com/cuhsuan/assignment5-automated-testing/commit/993fda2f6c4d38d04218139d75158f004a5dc05f)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
