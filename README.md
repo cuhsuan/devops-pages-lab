@@ -11,14 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-1. 🔄 Reopened PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
-2. ❌ Closed PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
-3. 🔄 Reopened PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
-4. ❌ Closed PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
-5. 🔄 Reopened PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
-6. ❌ Closed PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
-7. 🔄 Reopened PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
-8. ❌ Closed PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
+1. Added [Liyun0011/curious-earth](https://github.com/Liyun0011/curious-earth)
+2. 🗣 Commented on PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/issues/1#issuecomment-6841527367)
+3. 🔄 Reopened PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
+4. ❌ Closed PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
+5. 🔄 Reopened PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
+6. ❌ Closed PR #1 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/1)
+7. 🔄 Reopened PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
+8. ❌ Closed PR #9 in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/pull/9)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
