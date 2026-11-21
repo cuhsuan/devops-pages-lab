@@ -11,14 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-1. Added [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab)
-2. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/93e0d85279b476e4d1800ee7c4e547345a280ac3)
-3. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/cc50c986ae059380e0699676a46b7cd514070fc3)
-4. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/ec733d3e938dcc7e1d031e58ea314ac41bf04509)
-5. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/48e69efcf84ef8e068b9eefe37e6a51efcffbd7a)
-6. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/661be4e0b71c6b9c7847e5a618ae149d6ec57716)
-7. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/6e079bea47c2d68fbb9468da42639efced2804fd)
-8. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/c1064a0660fbbdf260a238368ffbd1a8c757b1af)
+1. 📝 Committed to main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/commit/96eb40d0807289425c769ea83fe9fe280982541d)
+2. 🎉 Created a new branch main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/tree/main)
+3. Added [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab)
+4. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/93e0d85279b476e4d1800ee7c4e547345a280ac3)
+5. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/cc50c986ae059380e0699676a46b7cd514070fc3)
+6. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/ec733d3e938dcc7e1d031e58ea314ac41bf04509)
+7. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/48e69efcf84ef8e068b9eefe37e6a51efcffbd7a)
+8. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/661be4e0b71c6b9c7847e5a618ae149d6ec57716)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
