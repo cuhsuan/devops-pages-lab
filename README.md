@@ -11,14 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/commit/96eb40d0807289425c769ea83fe9fe280982541d)
-2. 🎉 Created a new branch main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/tree/main)
-3. Added [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab)
-4. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/93e0d85279b476e4d1800ee7c4e547345a280ac3)
-5. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/cc50c986ae059380e0699676a46b7cd514070fc3)
-6. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/ec733d3e938dcc7e1d031e58ea314ac41bf04509)
-7. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/48e69efcf84ef8e068b9eefe37e6a51efcffbd7a)
-8. 📝 Committed to main in [cuhsuan/a9-devsecops-demo](https://github.com/cuhsuan/a9-devsecops-demo/commit/661be4e0b71c6b9c7847e5a618ae149d6ec57716)
+1. ❌ Closed issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+2. 🆕 Opened issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
+3. 👤 Assigned issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
+4. 👤 Assigned issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+5. 🆕 Opened issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+6. 👤 Assigned issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
+7. 🆕 Opened issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
+8. 📝 Committed to main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/commit/96eb40d0807289425c769ea83fe9fe280982541d)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
