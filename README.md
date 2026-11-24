@@ -11,14 +11,14 @@ A living portfolio: GitHub activity becomes Markdown, then a validated GitHub Pa
 This section is maintained by TheDanniCraft/activity-log. It displays up to eight recent supported events. GitHub's event feed may lag behind a new commit.
 
 <!--START_SECTION:activity-->
-1. ❌ Closed issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
-2. 🆕 Opened issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
-3. 👤 Assigned issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
-4. 👤 Assigned issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
-5. 🆕 Opened issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
-6. 👤 Assigned issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
-7. 🆕 Opened issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
-8. 📝 Committed to main in [cuhsuan/battleship-socket](https://github.com/cuhsuan/battleship-socket/commit/96eb40d0807289425c769ea83fe9fe280982541d)
+1. ❌ Closed issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
+2. ❌ Closed issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+3. 🆕 Opened issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
+4. 👤 Assigned issue #8 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/8)
+5. 👤 Assigned issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+6. 🆕 Opened issue #7 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/7)
+7. 👤 Assigned issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
+8. 🆕 Opened issue #6 in [wagyboy/devops-feature-toggles-lab](https://github.com/wagyboy/devops-feature-toggles-lab/issues/6)
 <!--END_SECTION:activity-->
 
 ## From activity to a published page
